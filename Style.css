@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Fondo negro */
+    color: white;
+}
+
+header {
+    background-color: #000080; /* Azul oscuro */
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.intro {
+    padding: 2rem;
+    text-align: center;
+}
+.profile-img {
+    width: 200px;  /* Tamaño más grande */
+    height: 250px; /* Ajustado para mantener proporciones de foto normal */
+    border-radius: 10px; /* Bordes ligeramente redondeados */
+    border: 3px solid #ff0000; /* Borde rojo más grueso */
+    object-fit: cover; /* Asegura que la imagen mantenga proporciones al ser redimensionada */
+}
+
+
+.details {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.info-card {
+    background-color: #333; /* Fondo gris oscuro */
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 2px solid #ff0000; /* Borde rojo */
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.2); /* Sombra con tono rojo */
+}
+
+.info-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info-card li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+strong {
+    color: #00bfff; /* Azul claro */
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
